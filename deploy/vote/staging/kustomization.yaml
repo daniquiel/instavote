@@ -22,3 +22,8 @@ commonLabels:
 
 commonAnnotations:
   supported-by: "novaqdaniel@gmail.com"
+
+configMapGenerator:
+  - name: vote-options
+    env: options.env
+
